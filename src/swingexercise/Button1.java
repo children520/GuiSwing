@@ -14,6 +14,7 @@ public class Button1 extends JFrame{
 	b1=new JButton("button 1"),
 	b2=new JButton("button 2");
 	public Button1() {
+		//布局管理器
 		setLayout(new FlowLayout());
 		add(b1);
 		add(b2);
