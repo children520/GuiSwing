@@ -27,6 +27,7 @@ public class TraceEvent extends JFrame{
 		b2=new MyButton(Color.RED,"test2");
 	
 	class MyButton extends JButton{
+		//传入事件的名称以及从事件得到的字符串
 		void report(String field,String msg) {
 			h.get(field).setText(msg);
 		}
