@@ -33,6 +33,7 @@ public class MessageBoxes extends JFrame{
 				if (sel!=JOptionPane.CLOSED_OPTION) 
 					txt.setText("Color Selected :"+options[sel]);
 				}else if(id.equals("Input")) {
+					//输入对话框
 					String val=JOptionPane.showInputDialog("how many fingers do you see?");
 					txt.setText(val);
 				
